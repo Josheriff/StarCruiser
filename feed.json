@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "StarCruiser",
     "description": "",
-    "home_page_url": "https://www.starcruiser.digital",
-    "feed_url": "https://www.starcruiser.digital/feed.json",
+    "home_page_url": "https://starcruiser.digital",
+    "feed_url": "https://starcruiser.digital/feed.json",
     "user_comment": "",
     "author": {
         "name": "Josheriff"
     },
     "items": [
         {
-            "id": "https://www.starcruiser.digital/motivacion/",
-            "url": "https://www.starcruiser.digital/motivacion/",
+            "id": "https://starcruiser.digital/motivacion/",
+            "url": "https://starcruiser.digital/motivacion/",
             "title": "Motivación",
             "summary": "En Marzo de 2021, acabó la aventura de Dungeon World que jugabamos en La Guarida de Jorge. En la charla&hellip;",
             "content_html": "<p>En Marzo de 2021, acabó la aventura de Dungeon World que jugabamos en La Guarida de Jorge.<br><br>En la charla post campaña, surgió una idea:</p>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"620\" height=\"378\" src=\"https://clips.twitch.tv/embed?clip=DiligentRichTriangleRickroll-8YerSvErfEB6TQSq&amp;parent=www.example.com\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" scrolling=\"no\"></iframe></div>\n<p> </p>",
