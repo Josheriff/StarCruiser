@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>StarCruiser</title>
+    <link href="https://josheriff.github.io/StarCruiser/feed.xml" rel="self" />
+    <link href="https://josheriff.github.io/StarCruiser" />
+    <updated>2022-05-12T10:30:15+02:00</updated>
+    <author>
+        <name>Josheriff</name>
+    </author>
+    <id>https://josheriff.github.io/StarCruiser</id>
+
+    <entry>
+        <title>Motivación</title>
+        <author>
+            <name>Josheriff</name>
+        </author>
+        <link href="https://josheriff.github.io/StarCruiser/motivacion.html"/>
+        <id>https://josheriff.github.io/StarCruiser/motivacion.html</id>
+
+        <updated>2022-05-12T10:30:15+02:00</updated>
+            <summary>
+                <![CDATA[
+                    En Marzo de 2021, acabó la aventura de Dungeon World que jugabamos en La Guarida de Jorge. En la charla post campaña, surgió una idea:
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>En Marzo de 2021, acabó la aventura de Dungeon World que jugabamos en La Guarida de Jorge.<br><br>En la charla post campaña, surgió una idea:</p>
+<div class="post__iframe"><iframe loading="lazy" width="620" height="378" src="https://clips.twitch.tv/embed?clip=DiligentRichTriangleRickroll-8YerSvErfEB6TQSq&amp;parent=www.example.com" frameborder="0" allowfullscreen="allowfullscreen" scrolling="no"></iframe></div>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
