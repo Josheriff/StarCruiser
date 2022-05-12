@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>StarCruiser</title>
+    <link href="https://starcruiser.digital/feed.xml" rel="self" />
+    <link href="https://starcruiser.digital" />
+    <updated>2022-05-12T14:40:58+02:00</updated>
+    <author>
+        <name>Josheriff</name>
+    </author>
+    <id>https://starcruiser.digital</id>
+
+    <entry>
+        <title>Otra prueba mas</title>
+        <author>
+            <name>Josheriff</name>
+        </author>
+        <link href="https://starcruiser.digital/otra-prueba-mas/"/>
+        <id>https://starcruiser.digital/otra-prueba-mas/</id>
+            <category term="Libro"/>
+
+        <updated>2022-05-12T14:40:58+02:00</updated>
+            <summary>
+                <![CDATA[
+                    madre mia de mi vida&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>madre mia de mi vida</p>
+<p>que lento se me hace todo</p>
+<p> </p>
+<p>OMG</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>prueba 4</title>
+        <author>
+            <name>Josheriff</name>
+        </author>
+        <link href="https://starcruiser.digital/prueba-4/"/>
+        <id>https://starcruiser.digital/prueba-4/</id>
+            <category term="Libro"/>
+
+        <updated>2022-05-12T14:40:26+02:00</updated>
+            <summary>
+                <![CDATA[
+                    En un lugar de la&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>En un lugar de la mancha de cuyo nombre no puedo acordarme.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Prueba 2</title>
+        <author>
+            <name>Josheriff</name>
+        </author>
+        <link href="https://starcruiser.digital/prueba-2/"/>
+        <id>https://starcruiser.digital/prueba-2/</id>
+            <category term="Libro"/>
+
+        <updated>2022-05-12T13:09:40+02:00</updated>
+            <summary>
+                <![CDATA[
+                    yeah
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>yeah</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>PRUEBA</title>
+        <author>
+            <name>Josheriff</name>
+        </author>
+        <link href="https://starcruiser.digital/prueba/"/>
+        <id>https://starcruiser.digital/prueba/</id>
+            <category term="Blog"/>
+
+        <updated>2022-05-12T13:08:55+02:00</updated>
+            <summary>
+                <![CDATA[
+                    lalalalala
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>lalalalala</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
