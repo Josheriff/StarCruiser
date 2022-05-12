@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>StarCruiser</title>
-    <link href="https://josheriff.github.io/StarCruiser/feed.xml" rel="self" />
-    <link href="https://josheriff.github.io/StarCruiser" />
+    <link href="https://www.starcruiser.digital/feed.xml" rel="self" />
+    <link href="https://www.starcruiser.digital" />
     <updated>2022-05-12T10:30:15+02:00</updated>
     <author>
         <name>Josheriff</name>
     </author>
-    <id>https://josheriff.github.io/StarCruiser</id>
+    <id>https://www.starcruiser.digital</id>
 
     <entry>
         <title>Motivación</title>
         <author>
             <name>Josheriff</name>
         </author>
-        <link href="https://josheriff.github.io/StarCruiser/motivacion/"/>
-        <id>https://josheriff.github.io/StarCruiser/motivacion/</id>
+        <link href="https://www.starcruiser.digital/motivacion/"/>
+        <id>https://www.starcruiser.digital/motivacion/</id>
 
         <updated>2022-05-12T10:30:15+02:00</updated>
             <summary>
