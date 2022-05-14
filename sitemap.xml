@@ -30,4 +30,19 @@
          <lastmod>2022-05-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://starcruiser.digital/manual/glosario/</loc>
+         <lastmod>2022-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://starcruiser.digital/manual/prologo/</loc>
+         <lastmod>2022-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://starcruiser.digital/manual/queesrol/</loc>
+         <lastmod>2022-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
