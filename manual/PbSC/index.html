@@ -36,6 +36,10 @@
               {title: "\u00bfQu\u00e9 necesitas para jugar?", url: "#que-necesitas-para-jugar" },
               {title: "Da\u00f1o", url: "#dano" },
               {title: "Puntos de Golpe (PG)", url: "#puntos-de-golpe-pg" },
+              {title: "Armadura", url: "#armadura" },
+              {title: "Esquiva", url: "#esquiva" },
+              {title: "Puntos de Escudo (PE)", url: "#puntos-de-escudo-pe" },
+              {title: "Puntos de Sellado (PS)", url: "#puntos-de-sellado-ps" },
               {title: "Tener ventaja o desventaja", url: "#tener-ventaja-o-desventaja" },
               {title: "\u00bfQu\u00e9 es un movimiento?", url: "#que-es-un-movimiento" },
               {title: "Bonificador de movimiento", url: "#bonificador-de-movimiento" },
@@ -74,8 +78,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Dos dados de 10 caras, papel ,lápiz, y las normas es todo lo que se necesita para jugar.</p>
 <p>Adicionalmente algunos DJ pueden querer mostrar mapas y la posición de los PJs y PNJs en los mismos para facilitar la interpretación de las situaciones narradas, Pero se puede jugar perfectamente usando sólo teatro de la mente (sin apoyarse con material visual alguno).</p>
 <h2 id="dano">Daño</h2>
-<p>El daño de un personaje está descrito en su libreto de clase o en su descripción de PNJ, son los dados que tiene que tirar en caso de que acierte un movimiento de ataque ya sea a distancia o cuerpo a cuerpo. Los movimientos especiales pueden tener otro daño diferente.</p>
-<p>Encontrarás más detalles sobre estos movimientos un poco más adelante en la sección de movimientos básicos.</p>
+<p>Son los dados que se tiene que tirar en caso de accertar un ataque.</p>
+<p>El daño de un PJ se calcula en base a su especie y la profesión elegida.
+El daño de la nave se calculará dependiendo de la nave que hayan elegido los PJs.
+El daño de un PNJ viene reflejado en su descripción de PNJ. </p>
+<p>En algunos casos especiales esta cifra puede verse modificada. En ese caso quedará claro que esta cifra es diferente de manera inequívoca</p>
 <h2 id="puntos-de-golpe-pg">Puntos de Golpe (PG)</h2>
 <p>Son los puntos de daño que un personaje puede recibir antes de caer inconsciente. </p>
 <p>Al igual que el daño, los puntos de golpe están descritos en el libreto de case o en la descripción del PNJ.</p>
@@ -83,6 +90,22 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Si los compañeros no lo protegen o fallan al protegerlo, el personaje muere.</p>
 <p>Dependiendo de la situación en la que esto pase, un médico con el laboratorio adecuado podría reanimarlo si no ha pasado demasiado tiempo.</p>
 <p>Cuando se descansa adecuadamente, se atienden las heridas y te alimentas se recuperan la mitad del total de tus puntos de golpe.</p>
+<h2 id="armadura">Armadura</h2>
+<p>Son los puntos que hay que restarle al daño enemigo cuando te impacta.  </p>
+<p>La armadura que llevas mitiga el efecto, pero puede que sea un impedimento para otras acciones.</p>
+<p>Si no se especifica lo contrario todos los PJs empiezan sin armadura alguna.</p>
+<h2 id="esquiva">Esquiva</h2>
+<p>Es la capacidad que tiene tu PJ de esquivar parte del daño que recibe del enemigo.</p>
+<p>Al daño del enemigo hay que restarle la capacidad de esquiva (y la armadura si procediera)  </p>
+<p>La capacidad de Esquiva es inherente a la especie y por lo tanto viene definida por la especie elegida.  </p>
+<h2 id="puntos-de-escudo-pe">Puntos de Escudo (PE)</h2>
+<p>Son los puntos de daño que el  escudo de la nave es capaz de absorber.</p>
+<p>Los puntos de escudo se definirán dependiendo de la nave que elijan los PJs.</p>
+<p>Cuando los puntos de escudo llegan a cero, la nave queda sin defensas y es vulnerable a ser abordada o a ser destruida.</p>
+<p>Se pueden recuperar la totalidad de los puntos de escudo reparando la nave en un lugar apartado y tranquilo.</p>
+<h2 id="puntos-de-sellado-ps">Puntos de Sellado (PS)</h2>
+<p>Son los puntos de daño que cada sección de la nave es capaz de soportar antes de perder el sellado y abrirse al espacio exterior.  </p>
+<p>Estos puntos sólo se descuentan cuando en la sección de la nave afectada no hay activo escudo alguno.</p>
 <h2 id="tener-ventaja-o-desventaja">Tener ventaja o desventaja</h2>
 <p>Cuando se tiene ventaja o desventaja al usar un movimiento.</p>
 <p>Se tiran 3 dados de 10 caras en lugar de 2</p>
@@ -147,8 +170,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </table>
 <p><strong>Es importante hacer hincapié en que el personaje tras saber que es lo que ha salido mal, narre que es lo que hará para que esa situación no se vuelva a dar</strong> (no significa que nunca se vaya a volver a dar, simplemente que intentará cambiar algo para que no pase).</p>
 <p>También es de vital importancia acordarse de dejar el contador de marcas de aprendizaje a cero, cuando se alcanza un nuevo bonificador.</p>
-<p>Existen movimientos específicos de cada clase que requieren que tengas un modificador +X en otro movimiento para poder aprenderlos.</p>
-<p>Se entiende que has tenido que alcanzar cierta pericia en un movimiento básico de tu clase para poder escoger un movimiento avanzado de la misma.</p>
+<p>Existen movimientos específicos que requieren que tengas un modificador +X en otro movimiento para poder aprenderlos.</p>
+<p>Se entiende que has tenido que alcanzar cierta pericia en un movimiento para poder escoger un movimiento avanzado de la misma.</p>
 <p>Este movimiento avanzado puede sustituir o no, al movimiento básico. En caso de sustituirlo, será mucho mejor que el básico, pero tendrás que empezar con bonificador +0 en el nuevo movimiento mejorado.</p>
 
   <br>
