@@ -2,72 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://starcruiser.digital/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/about/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/changelog/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/blog/bienvenida/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/blog/queesspaceopera/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/blog/segundo/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/PbSC/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/agradecimientos/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/glosario/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/movimientosBasicos/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/movimientosNave/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/prologo/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/queesrol/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://starcruiser.digital/manual/queesstarcruiser/</loc>
-         <lastmod>2022-05-24</lastmod>
+         <lastmod>2022-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://starcruiser.digital/manual/preparando/sesion0/</loc>
+         <lastmod>2022-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://starcruiser.digital/manual/preparando/tiposnave/</loc>
+         <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
