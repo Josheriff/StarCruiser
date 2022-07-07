@@ -42,6 +42,7 @@
               {title: "Potencia del haz tractor", url: "#potencia-del-haz-tractor" },
               {title: "Maniobrabilidad", url: "#maniobrabilidad" },
               {title: "Sensores", url: "#sensores" },
+              {title: "Areas por a\u00f1adir a la nave", url: "#areas-por-anadir-a-la-nave" },
               {title: "Nave de exploraci\u00f3n", url: "#nave-de-exploracion" },
               {title: "Nave Pirata", url: "#nave-pirata" },
               {title: "Nave de Batalla", url: "#nave-de-batalla" },
@@ -93,7 +94,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Daño capaz de soportar cada sección de la nave, una vez no hay escudo, antes de perder el sellado de la zona y quedar expuesto al vacío del espacio.</p>
 <h3 id="velocidad-subluz-maxima">Velocidad subluz máxima</h3>
 <p>Máxima velocidad que se puede alcanzar antes de activar los motores de velocidad luz.  </p>
-<p>El máximo que se puede alcanzar es 186.000 km/h que es aproximadamente la velocidad luz.
+<p>El máximo que se puede alcanzar es 186.000 km/h que es aproximadamente la velocidad luz. Es decir 1 unidad desplazamiento luz o 1 UL.
 Es muy relevante en una persecución a velocidad subluz.</p>
 <h3 id="velocidad-maxima">Velocidad máxima</h3>
 <p>Máxima velocidad que se puede alcanzar viajando con motores super-luz.
@@ -142,6 +143,23 @@ Potencia el movimiento <em>Maniobras evasivas</em> una vez por encuentro bélico
 <h3 id="sensores">Sensores</h3>
 <p>Distancia desde la cual se puede detectar actividad, incluyendo fenómenos naturales o movimiento de otras naves. 
 Los sensores sólo pueden usarse en velocidad subluz.  </p>
+<h3 id="areas-por-anadir-a-la-nave">Areas por añadir a la nave</h3>
+<p>Estás zonas de la nave son opcionales y negociables con el DJ en cualquier nave.</p>
+<p>Si tu nave no tiene estas zonas por defecto puedes añadirlas si cumples algún requisito negociado con el DJ.</p>
+<ul>
+<li>Cantina.</li>
+<li>Sala de máquinas principal</li>
+<li>de 1 a 10 áreas de habitaciones.</li>
+<li>de 1 a 10 Salas holográficas.</li>
+<li>Sala de máquinas motor 1</li>
+<li>Sala de máquinas motor 2</li>
+<li>Puede tener más salas de máquinas por cada motor principal.</li>
+<li>Pasillos o tubos interconectando salas de máquinas.</li>
+<li>Sala de teletransporte.</li>
+<li>Almacenes.</li>
+<li>Laboratorio de ciencias planetarias.</li>
+<li>Enfermería.</li>
+</ul>
 <h2 id="nave-de-exploracion">Nave de exploración</h2>
 <p>Las naves de exploración pertenecen a una asociación de planetas con una jerarquía muy marcada.</p>
 <p>Estas asociaciones tienen como objetivo primordial la exploración del universo, por el mero hecho de conocer o para fraguar nuevas alianzas.</p>
@@ -231,19 +249,8 @@ Es una nave Standard capaz de albergar muchas almas (en algunos casos hasta 500k
 <p>Este tipo de nave tiene como mínimo las siguientes areas diferenciadas.</p>
 <ul>
 <li>Puente de Mando.</li>
-<li>de 1 a 10 áreas de habitaciones.</li>
-<li>de 1 a 10 Salas holográficas.</li>
-<li>Cantina.</li>
-<li>Sala de máquinas principal</li>
-<li>Sala de máquinas motor 1</li>
-<li>Sala de máquinas motor 2</li>
-<li>Puede tener más salas de máquinas por cada motor principal.</li>
-<li>Pasillos o tubos interconectando salas de máquinas.</li>
-<li>Sala de teletransporte.</li>
 <li>Hangar hasta 10. que poseen pequeños transbordadores.</li>
-<li>Almacenes.</li>
-<li>Laboratorio de Astronomía</li>
-<li>Laboratorio de ciencias planetarias.</li>
+<li>Laboratorio de Astronomía.</li>
 <li>Enfermería.</li>
 </ul>
 <p>Se recomienda hacer un pequeño croquis de la nave así de cómo están distribuidas las diferentes áreas.</p>
@@ -253,6 +260,7 @@ Es una nave Standard capaz de albergar muchas almas (en algunos casos hasta 500k
 <li>De camino a instalar una mejora en el Scanner se recibe una señal de socorro de una zona cercana e inexplorada del espacio.</li>
 <li>La nave sale de la velocidad de la luz mucho más cerca de un planeta de lo que esperaba siendo visible desde la superficie del mismo.</li>
 <li>Se tienen pruebas para creer que lo que parece un agujero negro es en realidad un puente interestelar a otra zona muy lejana de la galaxia.</li>
+<li>Os encontráis con una nave que transportaba presos y se estrella con un meteorito, algunos presos escapan. Como miembros de la unión debéis ayudar a recuperarlos. Vuestra nave principal se marcha por tener una misión más importante, os dejan una nave tipo rebelde.</li>
 </ul>
 <h2 id="nave-pirata">Nave Pirata</h2>
 <p>Las naves pirata también pueden ser usadas cómo naves de cazarecompensas o naves de la resistencia.</p>
@@ -359,7 +367,7 @@ Es una nave que puede funcionar con un sólo tripulante, y puede albergar hasta 
 <li>Sala de máquinas principal.</li>
 <li>Almacén.</li>
 </ul>
-<p>Es prácticamente una nave "loft" donde el mismo y enorme espacio disponible se utiliza para todo.</p>
+<p>Es prácticamente una nave "loft" donde el mismo y enorme espacio disponible se utiliza para todo. Aunque se puede negociar con el DJ otra estructuración añadiendo zonas de la lista de zonas.</p>
 <p><strong>Semillas de aventura</strong></p>
 <ul>
 <li>Oís rumores de una nave interestelar desconocida que ha quedado a la deriva.</li>
@@ -760,13 +768,11 @@ Ejemplo zonas:</p>
 <p>En caso de avería irreparable despierta al encargado de la nave que tiene los conocimientos necesarios para reparar la nave y volver a su estado de sueño criogénico.</p>
 <p>Naves típicas que cumplen estas condiciones son:</p>
 <ul>
-<li>Nave Prisión.</li>
-<li>Nave Incubadora. </li>
-<li>Otras naves.</li>
+<li>Nave Incubadora.</li>
+<li>Cualquier nave sin tecnología super luz que esté en el espacio intentando llegar a algún sitio.</li>
 </ul>
 <p><strong>Objetivo</strong>.</p>
-<p><em>Nave prisión</em>: Llevar ante la ley a fugitivos que estaban a años luz de donde tenían que ser juzgados.
-<em>Nave Incubadora</em>: Transporta una civilización que perdió su planeta de origen a un planeta habitable, donde deben de formar una nueva civilización
+<p><em>Nave Incubadora</em>: Transporta una civilización que perdió su planeta de origen a un planeta habitable, donde deben de formar una nueva civilización
 <em>Otras Naves</em> : Si los jugadores han elegido otra nave similar en estadísticas pero con otro objetivo deberán pactarlo con el DJ.</p>
 <p>Llevar a cabo los objetivos de la nave otorgará hasta 3 puntos de aprendizaje en movimientos de la nave, dependiendo de la dificultad para llevar a cabo dicho objetivo.</p>
 <p>Completad estas preguntas y anotadlas en la ficha de la nave.</p>
@@ -778,7 +784,7 @@ Ejemplo zonas:</p>
 <li>Vapor.</li>
 <li>Kubbide</li>
 <li>Mahón</li>
-<li>Ingz</li>
+<li>Ingez</li>
 </ul>
 <p><strong>¿Cual es el planeta destino al que se dirige?</strong></p>
 <p><strong>¿Cuantos años "terrestres" tardará en llegar?</strong></p>
@@ -788,7 +794,7 @@ Ejemplo zonas:</p>
 <ul>
 <li>No fuerces el despertar de nadie.</li>
 <li>Si la nave te despierta es porque tú puedes arreglar el problema.</li>
-<li>Los prisioneros no deben escapar bajo ningún concepto</li>
+<li>Al llegar colonizar a cualquier precio.</li>
 </ul>
 <table>
 <thead>
@@ -839,7 +845,6 @@ Ejemplo zonas:</p>
 <p><strong>Semilla de aventura</strong></p>
 <ul>
 <li>La nave llega al final del trayecto y no hay planetas donde desembarcar la civilizacion, el soporte vital no está preparado para esto.</li>
-<li>Os encontráis con una nave que transportaba presos y se estrella con un meteorito, algunos presos escapan. Como miembros de la unión debéis ayudar a recuperarlos. Vuestra nave principal se marcha por tener una misión más importante, os dejan una nave tipo rebelde.</li>
 <li>La nave os despierta de camino a vuestro destino por fallos multiples, debéis arreglarlos pero luego otros fallos vienen... cómo si algo o alguien los provocara...</li>
 </ul>
 
