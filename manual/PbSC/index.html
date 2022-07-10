@@ -34,8 +34,8 @@
         var pageToc = [
           {title: "Sistema Base", url: "#_top", children: [
               {title: "\u00bfQu\u00e9 necesitas para jugar?", url: "#que-necesitas-para-jugar" },
-              {title: "Da\u00f1o", url: "#dano" },
               {title: "Puntos de Golpe (PG)", url: "#puntos-de-golpe-pg" },
+              {title: "Da\u00f1o", url: "#dano" },
               {title: "Armadura", url: "#armadura" },
               {title: "Esquiva", url: "#esquiva" },
               {title: "Puntos de Escudo (PE)", url: "#puntos-de-escudo-pe" },
@@ -78,19 +78,15 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <h2 id="que-necesitas-para-jugar">¿Qué necesitas para jugar?</h2>
 <p>Dos dados de 10 caras, papel ,lápiz, y las normas es todo lo que se necesita para jugar.</p>
 <p>Adicionalmente algunos DJ pueden querer mostrar mapas y la posición de los PJs y PNJs en los mismos para facilitar la interpretación de las situaciones narradas, Pero se puede jugar perfectamente usando sólo teatro de la mente (sin apoyarse con material visual alguno).</p>
-<h2 id="dano">Daño</h2>
-<p>Son los dados que se tiene que tirar en caso de acertar un ataque.</p>
-<p>El daño de un PJ cuando ataca cuerpo a cuerpo (movimiento partirse la cara) se calcula en base a su especie y la profesión elegida.
-El daño de la nave se calculará dependiendo de la nave que hayan elegido los PJs.
-El daño de un PNJ viene reflejado en su descripción de PNJ. 
-El daño cuando un PJ o PNJ acierta un disparo, vendrá determinado por el arma en cuestión.</p>
 <h2 id="puntos-de-golpe-pg">Puntos de Golpe (PG)</h2>
-<p>Son los puntos de daño que un personaje puede recibir antes de caer inconsciente. </p>
+<p>Son los puntos de daño que un personaje puede recibir antes de caer inconsciente. Habitualmente esta cifra es 3 aunque algunas especies pueden tener más.</p>
 <p>Al igual que el daño, los puntos de golpe están descritos en el libreto de case o en la descripción del PNJ.</p>
 <p>Cuando los puntos de golpe llegan a cero, el personaje pierde la consciencia, siendo vulnerable, y por lo tanto no pudiendo defenderse en caso de que el enemigo quisiera terminar con él si no es protegido por los compañeros.</p>
 <p>Si los compañeros no lo protegen o fallan al protegerlo, el personaje muere.</p>
 <p>Dependiendo de la situación en la que esto pase, un médico con el laboratorio adecuado podría reanimarlo si no ha pasado demasiado tiempo.</p>
 <p>Cuando se descansa adecuadamente, se atienden las heridas y te alimentas se recuperan la mitad del total de tus puntos de golpe.</p>
+<h2 id="dano">Daño</h2>
+<p>Son los puntos de golpe que se quitan a un PJ o PNJ en caso de que un ataque tenga éxito contra ellos.</p>
 <h2 id="armadura">Armadura</h2>
 <p>Son los puntos que hay que restarle al daño enemigo cuando te impacta.  </p>
 <p>La armadura que llevas mitiga el efecto, pero puede que sea un impedimento para otras acciones.</p>
@@ -104,8 +100,8 @@ Si el PNJ lanza los dados, suma sus bonificadores y con todo sale un 10, a ese h
 <p>Por lo tanto el tiro fallaría y no se aplicaría daño alguno (el disparo acierta si se saca un 10 o más)</p>
 <h2 id="puntos-de-escudo-pe">Puntos de Escudo (PE)</h2>
 <p>Son los puntos de daño que el  escudo de la nave es capaz de absorber.</p>
-<p>Los puntos de escudo se definirán dependiendo de la nave que elijan los PJs.</p>
-<p>Cuando los puntos de escudo llegan a cero, la nave queda sin defensas y es vulnerable a ser abordada o a ser destruida.</p>
+<p>Los puntos de escudo se definirán dependiendo de la nave que elijan los PJs.  </p>
+<p>Cuando los puntos de escudo llegan a cero, la nave queda sin defensas y es vulnerable a ser abordada o a ser destruida.  </p>
 <p>Se pueden recuperar la totalidad de los puntos de escudo reparando la nave en un lugar apartado y tranquilo.</p>
 <h2 id="puntos-de-sellado-ps">Puntos de Sellado (PS)</h2>
 <p>Son los puntos de daño que cada sección de la nave es capaz de soportar antes de perder el sellado y abrirse al espacio exterior.  </p>
@@ -178,7 +174,7 @@ Si el PNJ lanza los dados, suma sus bonificadores y con todo sale un 10, a ese h
 <p>Se entiende que has tenido que alcanzar cierta pericia en un movimiento para poder escoger un movimiento avanzado de la misma.</p>
 <p>Este movimiento avanzado puede sustituir o no, al movimiento básico. En caso de sustituirlo, será mucho mejor que el básico, pero tendrás que empezar con bonificador +0 en el nuevo movimiento mejorado.</p>
 <h2 id="tipos-de-movimiento">Tipos de movimiento</h2>
-<p>En StarCruiser existen 3 típos de movimiento:</p>
+<p>En StarCruiser existen 3 tipos de movimiento:</p>
 <p><strong>Movimiento básico:</strong>
 Movimientos que los PJs utilizan para interactuar y que no requieren de nave alguna. 
 Pueden estar modificados por la especie elegida.
