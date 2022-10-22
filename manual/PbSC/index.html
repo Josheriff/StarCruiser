@@ -38,6 +38,7 @@
               {title: "Da\u00f1o", url: "#dano" },
               {title: "Armadura", url: "#armadura" },
               {title: "Esquiva", url: "#esquiva" },
+              {title: "V\u00ednculos", url: "#vinculos" },
               {title: "Puntos de Escudo (PE)", url: "#puntos-de-escudo-pe" },
               {title: "Puntos de Sellado (PS)", url: "#puntos-de-sellado-ps" },
               {title: "Tener ventaja o desventaja", url: "#tener-ventaja-o-desventaja" },
@@ -79,27 +80,33 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Dos dados de 10 caras, papel ,lápiz, y las normas es todo lo que se necesita para jugar.</p>
 <p>Adicionalmente algunos DJ pueden querer mostrar mapas y la posición de los PJs y PNJs en los mismos para facilitar la interpretación de las situaciones narradas, Pero se puede jugar perfectamente usando sólo teatro de la mente (sin apoyarse con material visual alguno).</p>
 <h2 id="puntos-de-golpe-pg">Puntos de Golpe (PG)</h2>
-<p>Son los puntos de daño que un personaje puede recibir antes de caer inconsciente. Habitualmente esta cifra es 3 aunque algunas especies pueden tener más.</p>
-<p>Al igual que el daño, los puntos de golpe están descritos en el libreto de case o en la descripción del PNJ.</p>
+<p>Son los puntos de daño que un personaje puede recibir antes de caer inconsciente.</p>
+<p>Al igual que el daño, los puntos de golpe están descritos en el libreto de clase o en la descripción del PNJ.</p>
 <p>Cuando los puntos de golpe llegan a cero, el personaje pierde la consciencia, siendo vulnerable, y por lo tanto no pudiendo defenderse en caso de que el enemigo quisiera terminar con él si no es protegido por los compañeros.</p>
 <p>Si los compañeros no lo protegen o fallan al protegerlo, el personaje muere.</p>
-<p>Un personaje también morirá si recibe de golpe tras haber restado armadura, tantos puntos de golpe como el doble que es capaz de soportar +1</p>
-<p>Por ejemplo. Un personaje que aguante 4 puntos de golpe y tenga armadura 1. Si recibe 10 puntos de golpe, uno se resta de la armadura. Lo que haga que reciba 9 puntos de daño. Puesto que el doble de 4 es 8, el personaje morirá en el acto.</p>
+<p>Un personaje también morirá si recibe en una sóla acción, tras haber restado armadura, mas puntos de golpe que el doble de lo que habitualmente pueda soportar.</p>
+<p>Por ejemplo. Un personaje que aguante 4 puntos de golpe y tenga armadura 1. Si recibe 10 puntos de golpe, tras restar la armadura.recibirá 9 puntos de daño. Puesto que el doble de 4 es 8, y 9 es más que esa cifra el personaje morirá en el acto.</p>
 <p>Dependiendo de la situación de la muerte, ya sea por impacto desmedido o por un remate cuando el personaje estaba inconsciente, un médico con el laboratorio adecuado podría reanimarlo si no ha pasado demasiado tiempo.</p>
-<p>Cuando se descansa adecuadamente, se atienden las heridas y te alimentas se recuperan la mitad del total de tus puntos de golpe.</p>
+<p>Cuando se descansa adecuadamente, se atienden las heridas y te alimentas, se recuperan la mitad del total de tus puntos de golpe.</p>
 <h2 id="dano">Daño</h2>
 <p>Son los puntos de golpe que se quitan a un PJ o PNJ en caso de que un ataque tenga éxito contra ellos.</p>
 <h2 id="armadura">Armadura</h2>
 <p>Son los puntos que hay que restarle al daño enemigo cuando te impacta.  </p>
 <p>La armadura que llevas mitiga el efecto, pero puede que sea un impedimento para otras acciones.</p>
-<p>Si no se especifica lo contrario todos los PJs empiezan sin armadura alguna.</p>
+<p>Si no se especifica lo contrario, todos los PJs empiezan sin armadura alguna.</p>
 <h2 id="esquiva">Esquiva</h2>
 <p>Es la capacidad que tiene tu PJ de esquivar un daño que le sobreviene.</p>
-<p>Cuando ese PJ vaya a ser objetivo de un ataque a distancia o cuerpo a cuerpo a la tirada que se haga en su contra hay que restarle el bonificador que tenga de esquiva el PJ en cuestión.</p>
+<p>Cuando ese PJ vaya a ser objetivo de un ataque a distancia o cuerpo a cuerpo a la tirada que se haga en su contra, hay que restarle el bonificador que tenga de esquiva el PJ en cuestión.</p>
 <p>Ejemplo:</p>
 <p>Un PNJ, quiere disparar a un PJ con esquiva 2, el PNJ lanzará dados para ver si acierta el tiro, y en caso de acertarlo posteriormente tirará el daño.
 Si el PNJ lanza los dados, suma sus bonificadores y con todo sale un 10, a ese hay que restarle los 2 puntos de esquiva del PJ, obteniendo un total de 8.</p>
-<p>Por lo tanto el tiro fallaría y no se aplicaría daño alguno (el disparo acierta si se saca un 10 o más)</p>
+<p>Por lo tanto, el tiro fallaría y no se aplicaría daño alguno (el disparo acierta si se saca un 10 o más)</p>
+<h2 id="vinculos">Vínculos</h2>
+<p>Los vínculos representan la historia que te une a tus compañeros tripulantes o incluso a PNJs.</p>
+<p>Estos vínculos se irán creando conforme se desarrolle la historia que viváis juntos pero también se pueden dar por finalizados o zanjados.</p>
+<p>Cuando un personaje actúa para zanjar un vínculo, tendrá ventaja en la tirada.</p>
+<p><em>Ejemplo</em>: </p>
+<p>Un personaje le debía la vida a otro, en un momento de la batalla ve la posibilidad de devolverle el favor y ser esta vez el salvador, esa tirada irá con ventaja, y de ser un éxito el vínculo quedará resuelto (aunque tal vez genere uno nuevo).</p>
 <h2 id="puntos-de-escudo-pe">Puntos de Escudo (PE)</h2>
 <p>Son los puntos de daño que el  escudo de la nave es capaz de absorber.</p>
 <p>Los puntos de escudo se definirán dependiendo de la nave que elijan los PJs.  </p>
@@ -132,13 +139,13 @@ Si el PNJ lanza los dados, suma sus bonificadores y con todo sale un 10, a ese h
 <h2 id="bonificador-de-movimiento">Bonificador de movimiento</h2>
 <p>Todos los movimientos tienen un bonificador asignado que hay que sumar cuando se realice la tirada para dicho movimiento.</p>
 <p>Se comienza con un modificador 0, es decir, no se le suma nada.</p>
-<p>Cuando se falla un movimiento, es decir la tirada más el bonificador es un resultado de 9 o menor, <strong>si el personaje cuenta la lección que ha aprendido para que no vuelva a suceder</strong>, podrá marcarse un punto de aprendizaje.</p>
+<p>Cuando se falla un movimiento, es decir, la tirada más el bonificador es un resultado de 9 o menor, <strong>si el personaje cuenta la lección que ha aprendido para que no vuelva a suceder</strong>, podrá marcarse un punto de aprendizaje.</p>
 <p>Para alcanzar el siguiente bonificador, se tienen que tener tantos puntos de aprendizaje como bonificador actual + 2.</p>
 <p>Es decir, para pasar de bonificador +0 a bonificador +1 se tiene que fallar 0+2 veces, es igual 2 veces.</p>
 <p>En ese momento el movimiento pasará a ser un +1, <strong>el contador de aprendizaje se reseteará y pasaremos a tener 0 marcas de aprendizaje.</strong></p>
 <p>Para pasar de +1 a bonificador +2 se tiene que fallar un número de veces igual a el bonificador actual que es 1 + 2 fijo = 3 veces.</p>
 <p>Y así hasta llegar a un máximo de +5</p>
-<p><strong>Ningún movimiento puede tener un bonificador +6 o más a no ser que así lo determine el propio movimiento.</strong></p>
+<p><strong>Ningún movimiento puede tener un bonificador +6 o más, a no ser que así lo determine el propio movimiento.</strong></p>
 <p>Para mayor comodidad se puede consultar la siguiente tabla:</p>
 <table>
 <thead>
@@ -179,24 +186,30 @@ Si el PNJ lanza los dados, suma sus bonificadores y con todo sale un 10, a ese h
 <p>En StarCruiser existen 3 tipos de movimiento:</p>
 <p><strong>Movimiento básico:</strong>
 Movimientos que los PJs utilizan para interactuar y que no requieren de nave alguna. 
-Pueden estar modificados por la especie elegida.
-- Atacar
-- Defender
-- Convencer
-- Etc...</p>
+Pueden estar modificados por la especie elegida.</p>
+<ul>
+<li>Atacar</li>
+<li>Defender</li>
+<li>Convencer</li>
+<li>Etc...</li>
+</ul>
 <p><strong>Movimientos de la Nave</strong>
 La nave en StarCruiser es algo muy especial, es creada por los jugadores, tiene un objetivo definido y hasta tiene su propia ficha.</p>
-<p>Esta ficha incluye movimientos específicos tales como:
-- Maniobras evasivas.
-- Realizar un viaje interestelar.
-- Disparar fasers.
--  Etc...</p>
+<p>Esta ficha incluye movimientos específicos tales como:</p>
+<ul>
+<li>Maniobras evasivas.</li>
+<li>Realizar un viaje interestelar.</li>
+<li>Disparar fasers.</li>
+<li>Etc...</li>
+</ul>
 <p><strong>Movimientos de profesión</strong>
 Además de los movimientos Básicos y de Nave, cuando eliges una profesión en StarCruiser recibes unos movimientos que sólo tu profesión posee.</p>
-<p>Un ejemplo puede ser:
-- Iniciar autodestrucción.
-- Utilizar equipo médico avanzado.
-- Pedir ayuda a una alianza.</p>
+<p>Un ejemplo puede ser:</p>
+<ul>
+<li>Iniciar autodestrucción.</li>
+<li>Utilizar equipo médico avanzado.</li>
+<li>Pedir ayuda a una alianza.</li>
+</ul>
 
   <br>
     
