@@ -1,238 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  
-  
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="None">
-    
-    <link rel="canonical" href="https://starcruiser.digital/">
-    <link rel="shortcut icon" href="./img/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>StarCruiser Juego de Rol</title>
-    <link href="./css/bootstrap-3.3.7.min.css" rel="stylesheet">
-    <link href="./css/font-awesome-4.7.0.css" rel="stylesheet">
-    <link href="./css/base.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/highlight.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="./js/jquery-3.2.1.min.js"></script>
-    <script src="./js/bootstrap-3.3.7.min.js"></script>
-    <script src="./js/highlight.pack.js"></script>
-    
-      <script src="./js/elasticlunr.min.js"></script>
-    
-    <base target="_top">
-    <script>
-      var base_url = '.';
-      var is_top_frame = (window === window.parent);
-        
-        var pageToc = [
-          {title: "\u00bfQu\u00e9 es Space Opera?", url: "#_top", children: [
-              {title: "Historia", url: "#historia" },
-              {title: "Corrientes de pensamiento", url: "#corrientes-de-pensamiento" },
-              {title: "Opini\u00f3n Personal", url: "#opinion-personal" },
-              {title: "Clich\u00e9s", url: "#cliches" },
-          ]},
-        ];
-
-    </script>
-    <script src="./js/base.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJEZS9DV56"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><title>StarCruiser</title><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://starcruiser.digital/"><link rel="alternate" type="application/atom+xml" href="https://starcruiser.digital/feed.xml"><link rel="alternate" type="application/json" href="https://starcruiser.digital/feed.json"><meta property="og:title" content="StarCruiser"><meta property="og:site_name" content="StarCruiser"><meta property="og:description" content=""><meta property="og:url" content="https://starcruiser.digital/"><meta property="og:type" content="website"><link rel="next" href="https://starcruiser.digital/page/2/"><link rel="stylesheet" href="https://starcruiser.digital/assets/css/fontawesome-all.min.css?v=bbcde81f26378440dac4c3d195714389"><link rel="stylesheet" href="https://starcruiser.digital/assets/css/style.css?v=f50cc34a72ac50f26e6a407d5937873e"><link rel="stylesheet" href="https://starcruiser.digital/assets/css/photoswipe.css?v=357f87f4e9502a5318d89e8e76e0a344"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"StarCruiser","url":"https://starcruiser.digital/","sameAs":["https://twitter.com/Starcruiser_rol"]}</script><style>.pswp--svg .pswp__button,
+		                 .pswp--svg .pswp__button--arrow--left:before,
+		                 .pswp--svg .pswp__button--arrow--right:before {
+			                background-image: url(https://starcruiser.digital/assets/svg/gallery-icons-light.svg);
+		                 }</style><script async src="https://www.googletagmanager.com/gtag/js?id=G-VJEZS9DV56"></script><script>window.dataLayer = window.dataLayer || [];
     function gtag() {
         dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-VJEZS9DV56');
-</script>
- 
-</head>
-
-<body>
-<script>
-if (is_top_frame) { $('body').addClass('wm-top-page'); }
-</script>
-
-<nav class="navbar wm-page-top-frame">
-  <div class="container-fluid wm-top-container">
-    
-    <div class="wm-top-tool pull-right wm-vcenter">
-      <form class="dropdown wm-vcentered" id="wm-search-form" action="./search.html">
-        
-        <button id="wm-search-show" class="btn btn-sm btn-default" type="submit"
-          ><i class="fa fa-search" aria-hidden="true"></i></button>
-
-        <div class="input-group input-group-sm wm-top-search">
-          <input type="text" name="q" class="form-control" id="mkdocs-search-query" placeholder="Search" autocomplete="off">
-          <span class="input-group-btn" role="search">
-            
-            <button class="btn btn-default dropdown-toggle collapse" data-toggle="dropdown" type="button"><span class="caret"></span></button>
-            <ul id="mkdocs-search-results" class="dropdown-menu dropdown-menu-right"></ul>
-            <button id="wm-search-go" class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-          </span>
-        </div>
-      </form>
-    </div>
-
-    
-    <div class="wm-top-tool wm-vcenter pull-right wm-small-left">
-      <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
-    </div>
-
-    
-    
-
-    
-    <a href="" class="wm-top-brand wm-top-link wm-vcenter">
-      
-      <div class="wm-top-title">
-        StarCruiser Juego de Rol<br>
-        
-      </div>
-    </a>
-  </div>
-</nav>
-
-  <div id="main-content" class="wm-page-top-frame">
-    
-<nav class="wm-toc-pane">
-  
-  <ul class="wm-toctree">
-        <li class="wm-toc-li wm-toc-lev1 "><a href="about/" class="wm-article-link wm-toc-text">Acerca de</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="changelog/" class="wm-article-link wm-toc-text">Changelog</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Blog</span>
-</li>
-<li class="wm-toc-li-nested collapse">
-  <ul class="wm-toctree">
-      <li class="wm-toc-li wm-toc-lev2 "><a href="blog/bienvenida" class="wm-article-link wm-toc-text">Bienvenida</a>
-</li>
-      <li class="wm-toc-li wm-toc-lev2 "><a href="blog/queesspaceopera" class="wm-article-link wm-toc-text">¿Que es Space Opera?</a>
-</li>
-      <li class="wm-toc-li wm-toc-lev2 "><a href="blog/primerapartida" class="wm-article-link wm-toc-text">Primera partida</a>
-</li>
-  </ul>
-</li>
-
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/agradecimientos" class="wm-article-link wm-toc-text">Agradecimientos</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/prologo" class="wm-article-link wm-toc-text">Prólogo</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/queesrol" class="wm-article-link wm-toc-text">¿Qúe es un juego de rol?</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/glosario" class="wm-article-link wm-toc-text">Glosario</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/queesstarcruiser" class="wm-article-link wm-toc-text">Qué es StarCruiser</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/PbSC" class="wm-article-link wm-toc-text">Sistema Base</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/movimientosBasicos" class="wm-article-link wm-toc-text">Movimientos Básicos</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/movimientosNave" class="wm-article-link wm-toc-text">Movimientos Nave</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/sesion0" class="wm-article-link wm-toc-text">Preparación de partida</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/tiposnave" class="wm-article-link wm-toc-text">Naves</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/especies" class="wm-article-link wm-toc-text">Especies</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/profesiones" class="wm-article-link wm-toc-text">Profesiones</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/objetos" class="wm-article-link wm-toc-text">Objetos</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/dj/intro" class="wm-article-link wm-toc-text">Intro a DJ</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="manual/dj/movimientos" class="wm-article-link wm-toc-text">Movimientos DJ</a>
-</li>
-  </ul>
-</nav>
-
-    <div class="wm-content-pane">
-      <iframe class="wm-article" name="article"></iframe>
-    </div>
-  </div>
-
-<div class="container-fluid wm-page-content">
-  <a name="_top"></a>
-    
-
-    
-
-    <h1 id="que-es-space-opera">¿Qué es Space Opera?</h1>
-<p>La ciencia ficción siempre ha sido mi género favorito, y dentro de este, lo ha sido el Space Opera (y yo no lo sabía).</p>
-<p>Es fácil hacer una búsqueda por internet y encontrar los orígenes del nombre y algunas “batallas” dialécticas sobre qué es y qué no es considerado Space Opera.</p>
-<h2 id="historia">Historia</h2>
-<p>Al principio, cómo tantas otras corrientes culturales, se consideraba al “Drama espacial” un género pobre, así que se buscó ridiculizarlo por las corrientes “cultas”.</p>
-<p>Por aquellos entonces (años 20 , 30), se emitían por la radio lo que ahora conocemos como culebrones.</p>
-<p>Dado el horario de emisión las principales oyentes de ese tipo de contenido eran las amas de casa, por que los principales patrocinadores de aquellas historias eran los fabricantes de jabón. (soap en inglés).</p>
-<p>Por otro lado estas historias tenían como principal contenido el drama doméstico más vulgar y diario que se pudiera imaginar, justo lo contrario a lo considerado culto y de alta cuna, era la ópera.</p>
-<p>Así pues, se acuñó el término <em>soap opera</em> que se consideraba un género vulgar incluso inculto, puesto que los principales oyentes eran amas de casa y sobra decir que en aquella época, se las consideraba incultas y con falta de criterio.</p>
-<p>Para poder ridiculizar este surgimiento nuevo en la ciencia ficción se hizo el paralelismo a <em>space opera.</em></p>
-<p>Los amantes del género, lejos de sentirse ofendidos abrazaron el término que aún perdura en nuestros días. Donde el Space Opera, ha vivido una segunda juventud, gracias en gran parte al cine y a los efectos especiales.</p>
-<h2 id="corrientes-de-pensamiento">Corrientes de pensamiento</h2>
-<p>El Space Opera no está exento de discusiones y diferentes formas de verlo.</p>
-<p>La principal y más conocida, es definir qué es Space Opera y por lo tanto que <strong>no</strong> lo es.</p>
-<p>Cuando le explicas a alguien de manera rápida lo que pretendes representar con el juego que estoy escribiendo, las referencias salen solas.</p>
-<p>Star Trek, Star Wars, Firefly, Stargate…</p>
-<p>Pero en cuanto hables con alguien más informado en el tema salen las batallas.</p>
-<p>Star Wars es fantasía espacial, no Space Opera, porque usan “La fuerza”, no sólo la tecnología.</p>
-<p>Stargate no es Space Opera, dado que no gira alrededor de una nave sino más bien a portales entre mundos. Además está muy militarizado.</p>
-<p>Firefly no busca un noble propósito en sus viajes.</p>
-<h2 id="opinion-personal">Opinión Personal</h2>
-<p>Francamente, para mí sólo ha de cumplir unos requisitos para considerarse Space Opera, y es la capacidad de viajar entre Planetas misteriosamente con capacidad de albergar vida humana.</p>
-<p>Que tengan en la epicidad y el drama su base histórica, retorciendo las leyes de la física para poder realizar por ejemplo, teletransportes o viajar por encima de la velocidad de la luz.</p>
-<p>Y aquí entrarían los clichés que he podido observar a lo largo de los años, y que en cierta forma, me hacen querer aún más el género.</p>
-<h2 id="cliches">Clichés</h2>
-<p>Todas las películas y series que me han entusiasmado de lo que yo considero Space Opera, tienen lo siguiente en común.</p>
-<ul>
-<li>Objetivo noble como Explorar nuevos mundos, crear alianzas, ayudar al prójimo, incluso huir de un malvado que te ha cogido tirria pero no quieres dañar.</li>
-<li>Existe vida artificial.</li>
-<li>Se debe poder viajar entre planetas y galaxias. Casi siempre en una nave.</li>
-<li>Batallas espaciales, independientemente de sí es el medio principal de transporte o no.</li>
-<li>Muchas razas alienígenas, muy humanizadas.</li>
-<li>Una raza que amenaza a todas las demás.</li>
-<li>Un exiliado de la raza malvada que está más que dispuesto a luchar contra la raza que amenaza a todas las demás.</li>
-<li>Tramas políticas y legislativas con otros mundos donde la ley es absurda a ojos del ser humano de la tierra.</li>
-<li>Un alto mando terrestre o de la unión o federación, que cohíben a los protagonistas de tomar acciones, a primera vista bondadosas.</li>
-<li>Se tratan temas de gran profundidad y moral. <ul>
-<li>¿Qué es la vida? </li>
-<li>¿Es justo imponer tú cultura a otra que consideras salvaje? </li>
-</ul>
-</li>
-<li>Un gran sentido del compañerismo dentro de la tripulación o batallón. (nunca abandonamos a los nuestros).</li>
-<li>Tecnología muy muy muy avanzada.</li>
-</ul>
-<p>Parecen muchos, si te das cuenta no he introducido “la magia”, pero no significa que un Space Opera, que tenga todo lo nombrado por además tener magia deje de serlo.</p>
-<p>O porque los protagonistas quieran simplemente ganarse la vida, o sean piratas espaciales, deje de ser un Space Opera.</p>
-<p>Como siempre existen excepciones a la regla, es más, esto es sólo fruto de mi observación, habré dejado muchas cosas en el tintero y a lo mejor he añadido algunas que no corresponden.</p>
-
-  <br>
-    
-
-    <br>
-</div>
-
-<footer class="container-fluid wm-page-content">
-<hr>
-<p>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento 4.0 Internacional</a>.
-
-</p>
-
-</footer>
-
-</body>
-</html>
-<!--
-MkDocs version : 1.4.1
-Build Date UTC : 2022-10-23 15:30:31.520588+00:00
--->
+    gtag('config', 'G-VJEZS9DV56');</script></head><body class="is-preload"><div id="wrapper"><div id="main"><div class="inner"><header id="header"><a class="logo" href="https://starcruiser.digital/"><strong>StarCruiser</strong></a><ul class="icons"><li><a href="https://twitter.com/Starcruiser_rol" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li></ul></header><article class="post"><header class="main post__header"><time datetime="2022-10-23T18:22" class="post__date">octubre 23, 2022</time><h1>Qué es StarCruiser</h1></header><figure class="image main false"><img src="https://starcruiser.digital/media/posts/5/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole.png" srcset="https://starcruiser.digital/media/posts/5/responsive/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole-xs.png 300w, https://starcruiser.digital/media/posts/5/responsive/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole-sm.png 480w, https://starcruiser.digital/media/posts/5/responsive/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole-md.png 768w, https://starcruiser.digital/media/posts/5/responsive/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole-lg.png 1024w, https://starcruiser.digital/media/posts/5/responsive/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole-xl.png 1360w, https://starcruiser.digital/media/posts/5/responsive/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole-xxl.png 1600w" sizes="(max-width: 1600px) 100vw, 1600px" loading="lazy" height="1024" width="1024" alt=""></figure><div class="post__inner post__entry"><p>StarCruiser es un juego de rol narrativo y colaborativo, en el cual el foco está en la sencillez y en que todos los integrantes de la mesa colaboren para crear la historia.</p><p>La acción se desarrolla como una conversación entre el Director de Juego y los Jugadores, siendo todos igualmente decisivos en la construcción del mundo en el que se desarrolla la aventura.</p><p>Es un juego muy influido por el sistema PbtA (Powered by the Apocalypse), aunque introduce cambios lo suficientemente importantes como para considerarse un sistema distinto. En sus siglas en inglés PbSC(Powered by StarCruiser)</p><p>El juego refuerza en todo momento que los integrantes desarrollen los personajes que interpretan, la nave en la quie viajan y el universo que los rodea, incentivando en todo momento que se “roleen” las situaciones vividas.</p><p>Además de las ventajas que el propio juego da por interpretar las situaciones los siguientes apartados pretenden ser una guía genérica que ayudarán a que los jugadores disfruten más del mismo.</p><h2 id="zen-de-starcruiser-para-jugadores">Zen de StarCruiser para jugadores.</h2><ul><li>Sé respetuoso y amigable, hemos venido a pasarlo bien.</li><li>Describe la acción, no nombres la norma o movimiento que la acciona a no ser que te pregunten abiertamente.</li><li>Pon límites claros y respeta los límites de tus compañeros.</li><li>Da detalles de tu personaje siempre que la historia te lo permita.</li><li>Sé épico cuando la situación lo favorezca.</li><li>Haz que el personaje cambie, puede ser un santurrón hoy y un poco más picarón después de aprender un par de lecciones.</li><li>Favorece las tramas personales, crea lazos.</li><li>Rolea los fallos con sus aprendizajes. El DJ te ayudará.</li></ul><h2 id="zen-de-starcruiser-para-director-de-juego">Zen de StarCruiser para Director de Juego.</h2><ul><li>Sé respetuoso y amigable, hemos venido a pasarlo bien.</li><li>Haz preguntas, muchas preguntas.<ul><li>¿Qué haces ahora?</li><li>¿Cómo es el anciano que se dirige a vosotros?</li><li>¿De qué color es esa bebida?</li></ul></li><li>Cuando tengas que describir un planeta, nave, raza… hazlo detallado.<ul><li>¿Cual es el Bioma de ese planeta?</li><li>¿Están muy avanzados?</li></ul></li><li>Crea Canon con tus jugadores, todo lo que se diga en la mesa pasa a ser canon a no ser que decidáis lo contrario o se contradiga con algo que ya lo es.</li><li>Deja huecos en la historia, rellenalos con las preguntas.</li><li>Favorece tramas que hagan brillar a los personajes.</li><li>Ajusta la dificultad del juego a tus jugadores usando los recursos que te da el manual.</li></ul></div><footer class="post__inner post__footer"><p class="post__last-updated">This article was updated on octubre 23, 2022</p><div class="post__share"><h3>Share post:</h3><a href="https://twitter.com/share?url=https%3A%2F%2Fstarcruiser.digital%2Fque-es-starcruiser.html&amp;via=Starcruiser_rol&amp;text=Qu%C3%A9%20es%20StarCruiser" class="js-share icon brands fa-twitter" rel="nofollow noopener noreferrer"><span class="label">Twitter</span></a></div><div class="post__bio"><div><h3><a href="https://starcruiser.digital/authors/jose-m-gallego/" class="invert" rel="author">Jose M. Gallego</a></h3></div></div></footer></article></div></div><div id="sidebar"><div class="inner"><nav id="menu"><header class="major"><h2>Menu</h2></header><ul><li><a href="https://starcruiser.digital/agradecimientos.html" target="_self">Agradecimientos</a></li><li><a href="https://starcruiser.digital/prologo.html" target="_self">Prólogo</a></li><li><a href="https://starcruiser.digital/que-es-un-juego-de-rol.html" target="_self">¿Qué es un juego de rol?</a></li><li><a href="https://starcruiser.digital/glosario-basico.html" target="_self">Glosario Básico</a></li><li><a href="https://starcruiser.digital/sistema-base.html" target="_self">Sistema Base</a></li><li><a href="https://starcruiser.digital/movimientos-basicos.html" target="_self">Movimientos básicos</a></li><li><a href="https://starcruiser.digital/movimientos-de-la-nave.html" target="_self">Movimientos de la nave</a></li><li><a href="https://starcruiser.digital/preparacion-de-la-partida.html" target="_self">Sesión Cero</a></li><li><a href="https://starcruiser.digital/naves.html" target="_self">Naves</a></li><li><a href="https://starcruiser.digital/especies.html" target="_self">Especies</a></li><li><a href="https://starcruiser.digital/profesiones.html" target="_self">Profesiones</a></li><li><a href="https://starcruiser.digital/objetos.html" target="_self">Objetos</a></li><li><a href="https://starcruiser.digital/intro-al-dj.html" target="_self">Intro al DJ</a></li><li><a href="https://starcruiser.digital/movimientos-del-dj.html" target="_self">Movimientos del DJ</a></li></ul></nav><footer id="footer"><p>.</p></footer></div></div></div><script src="https://starcruiser.digital/assets/js/jquery.min.js?v=7c14a783dfeb3d238ccd3edd840d82ee"></script><script src="https://starcruiser.digital/assets/js/browser.min.js?v=c07298dd19048a8a69ad97e754dfe8d0"></script><script src="https://starcruiser.digital/assets/js/breakpoints.min.js?v=81a479eb099e3b187613943b085923b8"></script><script src="https://starcruiser.digital/assets/js/util.min.js?v=cbdaf7c20ac2883c77ae23acfbabd47e"></script><script src="https://starcruiser.digital/assets/js/main.min.js?v=448f4c9d4b4c374766a1cb76c3d88048"></script><script>var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};</script><script defer="defer" src="https://starcruiser.digital/assets/js/photoswipe.min.js?v=017385b552f7e0d979e2e2fe6f324015"></script><script defer="defer" src="https://starcruiser.digital/assets/js/photoswipe-ui-default.min.js?v=d067f0883540b1ddda0e2c9ad1b14260"></script><script>var initPhotoSwipeFromDOM=function(gallerySelector){var parseThumbnailElements=function(el){var thumbElements=el.childNodes,numNodes=thumbElements.length,items=[],figureEl,linkEl,size,item;for(var i=0;i<numNodes;i++){figureEl=thumbElements[i];if(figureEl.nodeType!==1){continue;}
+          linkEl=figureEl.children[0];size=linkEl.getAttribute('data-size').split('x');item={src:linkEl.getAttribute('href'),w:parseInt(size[0],10),h:parseInt(size[1],10)};if(figureEl.children.length>1){item.title=figureEl.children[1].innerHTML;}
+          if(linkEl.children.length>0){item.msrc=linkEl.children[0].getAttribute('src');}
+          item.el=figureEl;items.push(item);}
+          return items;};var closest=function closest(el,fn){return el&&(fn(el)?el:closest(el.parentNode,fn));};var onThumbnailsClick=function(e){e=e||window.event;e.preventDefault?e.preventDefault():e.returnValue=false;var eTarget=e.target||e.srcElement;var clickedListItem=closest(eTarget,function(el){return(el.tagName&&el.tagName.toUpperCase()==='FIGURE');});if(!clickedListItem){return;}
+          var clickedGallery=clickedListItem.parentNode,childNodes=clickedListItem.parentNode.childNodes,numChildNodes=childNodes.length,nodeIndex=0,index;for(var i=0;i<numChildNodes;i++){if(childNodes[i].nodeType!==1){continue;}
+          if(childNodes[i]===clickedListItem){index=nodeIndex;break;}
+          nodeIndex++;}
+          if(index>=0){openPhotoSwipe(index,clickedGallery);}
+          return false;};var photoswipeParseHash=function(){var hash=window.location.hash.substring(1),params={};if(hash.length<5){return params;}
+          var vars=hash.split('&');for(var i=0;i<vars.length;i++){if(!vars[i]){continue;}
+          var pair=vars[i].split('=');if(pair.length<2){continue;}
+          params[pair[0]]=pair[1];}
+          if(params.gid){params.gid=parseInt(params.gid,10);}
+          return params;};var openPhotoSwipe=function(index,galleryElement,disableAnimation,fromURL){var pswpElement=document.querySelectorAll('.pswp')[0],gallery,options,items;items=parseThumbnailElements(galleryElement);options={galleryUID:galleryElement.getAttribute('data-pswp-uid'),getThumbBoundsFn:function(index){var thumbnail=items[index].el.getElementsByTagName('img')[0],pageYScroll=window.pageYOffset||document.documentElement.scrollTop,rect=thumbnail.getBoundingClientRect();return{x:rect.left,y:rect.top+pageYScroll,w:rect.width};},
+          mainClass:'pswp--dark',
+          preload: [1,2],
+          hideAnimationDuration:200,
+          showAnimationDuration:0,
+          bgOpacity: 0.7,
+          showHideOpacity:true,
+          closeOnScroll: true,
+          arrowKeys: true,
+          closeEl: true,
+          captionEl: true,
+          fullscreenEl: true,
+          zoomEl: true,
+          shareEl: true,
+          counterEl: true,
+          arrowEl: true,
+          preloaderEl: true
+          };if(fromURL){if(options.galleryPIDs){for(var j=0;j<items.length;j++){if(items[j].pid==index){options.index=j;break;}}}else{options.index=parseInt(index,10)-1;}}else{options.index=parseInt(index,10);}
+          if(isNaN(options.index)){return;}
+          if(disableAnimation){options.showAnimationDuration=0;}
+          gallery=new PhotoSwipe(pswpElement,PhotoSwipeUI_Default,items,options);gallery.init();gallery.options.escKey=true;};var galleryElements=document.querySelectorAll(gallerySelector);for(var i=0,l=galleryElements.length;i<l;i++){galleryElements[i].setAttribute('data-pswp-uid',i+1);galleryElements[i].onclick=onThumbnailsClick;}
+          var hashData=photoswipeParseHash();if(hashData.pid&&hashData.gid){openPhotoSwipe(hashData.pid,galleryElements[hashData.gid-1],true,true);}};window.addEventListener('load', function () {initPhotoSwipeFromDOM('.gallery');}, false);</script><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--share" title="Share"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div></body></html>

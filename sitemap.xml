@@ -1,108 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://starcruiser.digital/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/about/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/changelog/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/blog/bienvenida/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/blog/primerapartida/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/blog/queesspaceopera/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/PbSC/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/agradecimientos/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/especies/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/glosario/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/movimientosBasicos/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/movimientosNave/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/objetos/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/profesiones/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/prologo/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/queesrol/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/queesstarcruiser/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/sesion0/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/tiposnave/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/dj/intro/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://starcruiser.digital/manual/dj/movimientos/</loc>
-         <lastmod>2022-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
+<?xml-stylesheet type="text/xsl" href="https://starcruiser.digital/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://starcruiser.digital/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/agradecimientos.html</loc>
+<lastmod>2022-10-23T18:59:18+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/1/DALLE-2022-07-27-10.47.23-Battle-between-a-big-starship-and-an-space-whale.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/especies.html</loc>
+<lastmod>2022-10-23T18:44:18+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/11/DALLE-2022-10-23-18.43.40-a-purple-and-muscled-gamora-specie-man-looking-to-the-camera-hd-photo.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/glosario-basico.html</loc>
+<lastmod>2022-10-23T19:00:41+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/4/DALLE-2022-07-27-09.02.39-A-really-big-starcruiser-is-going-across-a-portal.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/intro-al-dj.html</loc>
+<lastmod>2022-10-23T18:56:10+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/14/DALLE-2022-10-23-18.56.00-A-woman-rol-master-playing-a-tabletop-game-throwing-dices-behind-the-master-screen-van-gogh-style.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/movimientos-basicos.html</loc>
+<lastmod>2022-10-23T18:33:49+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/7/DALLE-2022-07-27-15.18.33.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/movimientos-de-la-nave.html</loc>
+<lastmod>2022-10-23T18:35:24+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/8/DALLE-2022-07-27-15.18.33.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/movimientos-del-dj.html</loc>
+<lastmod>2022-10-23T18:58:15+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/15/DALLE-2022-10-23-18.58.00-An-astronaut-rol-master-playing-a-tabletop-game-throwing-dices-behind-the-master-screen-van-gogh-style.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/naves.html</loc>
+<lastmod>2022-10-23T18:39:43+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/10/DALLE-2022-07-27-11.19.17-a-huge-starcruiser-with-2-moons-in-the-background-hd-photo.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/objetos.html</loc>
+<lastmod>2022-10-23T18:50:55+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/13/DALLE-2022-10-23-18.50.37-A-big-meca-robot-used-to-mining-diamonds-in-a-dessert-planet.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/10/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/11/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/12/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/13/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/14/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/2/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/3/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/4/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/5/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/6/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/7/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/8/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/page/9/</loc>
+</url>
+<url>
+<loc>https://starcruiser.digital/preparacion-de-la-partida.html</loc>
+<lastmod>2022-10-23T18:37:10+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/9/DALLE-2022-07-27-15.02.33-three-astronauts-going-to-their-starship-in-the-night-synthwave-style.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/profesiones.html</loc>
+<lastmod>2022-10-23T18:46:46+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/12/DALLE-2022-10-23-18.46.26-a-lizard-mad-scientist-mixin-chemical-elements-in-a-laboratory.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/prologo.html</loc>
+<lastmod>2022-10-23T18:59:55+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/2/DALLE-2022-07-27-10.52.00-A-really-big-starcruiser-is-leaving-a-planet-about-to-explode.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/que-es-starcruiser.html</loc>
+<lastmod>2022-10-23T18:25:59+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/5/DALLE-2022-07-27-09.07.05-Battle-between-starships-near-a-black-hole.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/que-es-un-juego-de-rol.html</loc>
+<lastmod>2022-10-23T19:00:23+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/3/DALLE-2022-07-27-10.52.27-starship-landing-on-earth-at-style-of-Van-Gogh.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://starcruiser.digital/sistema-base.html</loc>
+<lastmod>2022-10-23T18:28:47+02:00</lastmod>
+<image:image>
+<image:loc>https://starcruiser.digital/media/posts/6/DALLE-2022-07-27-10.53.14-A-Starcruiser-running-away-from-an-exploding-planet.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
 </urlset>
