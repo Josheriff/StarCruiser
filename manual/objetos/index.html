@@ -69,7 +69,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     <h1 id="objetos">Objetos</h1>
 <p>Los objetos en StarCruiser están ligados al tipo de nave en la que se viaje, o el tipo de lugares que se visite durante la aventura.</p>
-<p>Para empezar siempres serán objetos del tipo de nave que haya elegido el grupo.</p>
+<p>Para empezar siempre serán objetos del tipo de nave que haya elegido el grupo.</p>
 <p>Así pues diferenciamos 4 tipos de objetos.</p>
 <ul>
 <li>Armas (daño)</li>
@@ -77,6 +77,14 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Accesorios movilidad (modifican esquiva)</li>
 <li>Útiles (tienen su propio movimiento asociado)</li>
 </ul>
+<p>Todos los objetos tienen movimientos asociados a ellos. Puedes crear objetos sobre la marcha, pero ten en cuenta las siguientes recomendaciones.</p>
+<ul>
+<li>Es buena idea crear un objeto que suple un movimiento de una profesión que no se esté jugando.</li>
+<li>Sigue el principio básico, 2-9: Movimiento falla con consecuencias a decidir por el DJ, 10-14: Éxito parcial a elegir o mitad de efecto completo, 15+ efecto completo.</li>
+<li>Si el objeto es el resultado de una combinación de objetos, el resultado debe de ser más potente que si usaras un objeto a la vez que el otro, pero los efectos negativos también deben de ser más graves.</li>
+<li>No os preocupéis demasiado por el nombre del movimiento, sino por el movimiento en si.</li>
+</ul>
+<p>A continuación te presento unos objetos prefabricados, te animo a que creéis los vuestros, sobre todo si son resultado de los movimientos de los jugadores.</p>
 <h2 id="armas">Armas</h2>
 <h3 id="blaster-standard">Blaster Standard</h3>
 <p>Disponible en todas las naves.</p>
@@ -100,8 +108,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <ul>
 <li>2-9: Fallas el disparo. 
 El DJ te dirá cómo has fallado y la consecuencia. 
-Narra cómo evitarás que esto vuelva a pasar en el futuro y apunta marca de aprendizaje.</li>
-<li>10-14: El disparo impacta a 5 metros del objetivo. Realiza la totalidad del daño en el centro y la mitad del daño en 5 metros a la redonda. El DJ elije el punto de impacto.</li>
+Apunta marca de aprendizaje.</li>
+<li>10-14: El disparo impacta a 5 metros del objetivo. Realiza la totalidad del daño en el centro y la mitad del daño en 5 metros a la redonda. El DJ elige el punto de impacto.</li>
 <li>15+: El disparo acierta de pleno haciendo que el objetivo sea el centro de la explosión.
 Todos los que se encuentren en un radio de 5 metros reciben la mitad del daño.</li>
 </ul>
@@ -110,12 +118,12 @@ Todos los que se encuentren en un radio de 5 metros reciben la mitad del daño.<
 <p>Disponible en todas las naves. </p>
 <p><strong>1 Armadura</strong></p>
 <p>Es una tela especial configurada para disipar la energía del primer impacto que supere el umbral de KO de la especie que lo lleve. tras lo cual queda desactivada.</p>
-<h3 id="armadura-lijera">Armadura lijera</h3>
+<h3 id="armadura-ligera">Armadura ligera</h3>
 <p>Disponible en <em>Naves Pirata</em></p>
 <p><strong>2 Armadura</strong></p>
-<p>Armadura lijera que permite total movilidad, se puede camuflar bajo ropaje ancho (no uniformes).</p>
-<p>Si recibe un impacto de 4 o más, quedá destruida y deja de protejer.</p>
-<h3 id="armadrua-militar">Armadrua militar</h3>
+<p>Armadura ligera que permite total movilidad, se puede camuflar bajo ropaje ancho (no uniformes).</p>
+<p>Si recibe un impacto de 4 o más, queda destruida y deja de proteger.</p>
+<h3 id="armadura-militar">Armadura militar</h3>
 <p>Disponible en <em>Nave de Guerra</em></p>
 <p><strong>3 Armadura</strong></p>
 <p>Armadura que no puede ser camuflada de ninguna manera, incluye casco. Da el aspecto de milicia organizada.</p>
@@ -133,7 +141,7 @@ Si el meca es reparado por un ingeniero jefe con calma el contador quedará a 0.
 <ul>
 <li>2-9: Fallas el ataque. 
 El DJ te dirá cómo has fallado y la consecuencia. 
-Narra cómo evitarás que esto vuelva a pasar en el futuro y apunta marca de aprendizaje.</li>
+Apunta marca de aprendizaje.</li>
 <li>10-14: Golpeas al enemigo de refilón. Haces la mitad del daño del meca redondeado hacia abajo y el enemigo tiene la opción de reaccionar.</li>
 <li>15+: El ataque tiene éxito. Golpeas fuertemente al enemigo.Si el objetivo no se encuentra en ningún tipo de vehículo saldrá volando 20m en el aire. Haces todo el daño del meca.</li>
 </ul>
@@ -142,7 +150,7 @@ Narra cómo evitarás que esto vuelva a pasar en el futuro y apunta marca de apr
 <p>Disponible en <em>Crucero vacacional</em> , <em>Estación Espacial</em>, <em>Nave subluz</em></p>
 <p><strong>1 Esquiva</strong></p>
 <p>Es una mochila capaz de mantener a alguien estable en el aire durante 15 minutos.
-No es muy pesada ni aparatosa, puede llevarse debajo de ropa orgada.</p>
+No es muy pesada ni aparatosa, puede llevarse debajo de ropa holgada.</p>
 <p>Se suele utilizar para la limpieza y mantenimiento de naves con baja tecnología autoreparadora.</p>
 <h3 id="botas-propulsadas">Botas propulsadas</h3>
 <p>Disponible en <em>Nave Pirata</em></p>
@@ -156,21 +164,21 @@ No es muy pesada ni aparatosa, puede llevarse debajo de ropa orgada.</p>
 <ul>
 <li>2-9: Fallas el lanzamiento o la granada no detona. 
 El DJ te dirá cómo has fallado y la consecuencia. 
-Narra cómo evitarás que esto vuelva a pasar en el futuro y apunta marca de aprendizaje.</li>
-<li>10-14: La granada detona a 5 metros de donde pretendías. Uno de los presentes ha identificado el ruido de una granada cegadora acercandose y no han mirado. El DJ te dira quien. Los demás en un radio de 15m quedarán cegados durante un rato y tirarán con desventaja.</li>
-<li>15+: La granada detona justo donde pretendías. Todos los que estén mirando la granada en un radio de 15m quedarán cegados cegados durante un rato y tirarán con desventaja.</li>
+Apunta marca de aprendizaje.</li>
+<li>10-14: La granada detona a 5 metros de donde pretendías. Uno de los presentes ha identificado el ruido de una granada cegadora acercándose y no han mirado. El DJ te dirá quién. Los demás en un radio de 15m quedarán cegados durante un rato y tirarán con desventaja.</li>
+<li>15+: La granada detona justo donde pretendías. Todos los que estén mirando la granada en un radio de 15m quedarán cegados durante un rato y tirarán con desventaja.</li>
 </ul>
-<h3 id="emisor-holografico-portatil">Emisor holográfico portatil</h3>
+<h3 id="emisor-holografico-portatil">Emisor holográfico portátil</h3>
 <p>Permite usar el movimiento <em>Ahora lo ves</em></p>
 <p><em><em>Ahora lo ves</em></em></p>
-<p>Cuando uses el emisor holográfico para emitir algo como mucho 3 veces tú tamaño.</p>
+<p>Cuando uses el emisor holográfico para emitir algo como mucho 3 veces tu tamaño.</p>
 <ul>
 <li>2-9: El holograma ha fallado. 
-El DJ te dirá porqué y la consecuencia. 
-Narra cómo evitarás que esto vuelva a pasar en el futuro y apunta marca de aprendizaje.</li>
-<li>10-14: Algo no sale 100% como lo planeabais. Elije 1:<ul>
+El DJ te dirá por qué y la consecuencia. 
+Apunta marca de aprendizaje.</li>
+<li>10-14: Algo no sale 100% como lo planeabais. Elige 1:<ul>
 <li>El holograma tiene detalles que lo delatan. Pero hay que fijarse mucho.</li>
-<li>El holograma sólo dura 1 minuto antes de desaparecer.</li>
+<li>El holograma solo dura 1 minuto antes de desaparecer.</li>
 <li>El holograma es claramente detectado si se mira desde atrás.</li>
 </ul>
 </li>
